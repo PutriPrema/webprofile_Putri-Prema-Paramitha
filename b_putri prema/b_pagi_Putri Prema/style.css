@@ -1,0 +1,211 @@
+/* font dan jarak frame untuk semua tulisan di website */
+*{
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* .container {
+    display: flex;
+    min-height: 100vh;
+} */
+
+/* ukuran sidebar & posisi konten di dalamnya*/
+.sidebar {
+    background-color: #051b39;
+    width: 260px;
+    height: 300%;
+    padding: 24px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    position: fixed;
+}
+
+/* sidebar shadow */
+.sidebar {
+    width: 250px; /* Sesuaikan lebar sidebar sesuai kebutuhan Anda */
+    box-shadow: 2px 2px 5px #123356; /* Mengatur bayangan */
+    /* padding, margin, dan properti lainnya sesuaikan dengan desain Anda */
+  }
+
+/* bagian foto profil */
+.foto-profil img{
+    width: 150px; /* Atur lebar gambar sesuai kebutuhan Anda */
+    height: 150px; /* Atur tinggi gambar sesuai kebutuhan Anda */
+    border-radius: 50%; /* Mengatur radius border menjadi 50%, membuat lingkaran */
+    border: 2px;
+    display: block;
+    margin-top: 10%;
+    margin-left: 10%;
+    border: 3px solid grey;
+}
+
+/* bagian h1 nama  */
+.nama h1 {
+    color: white;
+    font-size: 22pt;
+    margin-top: 10%;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 10%;
+}
+
+/* bagian background */
+.background img{
+    background-size: 150px 150px; 
+    background-repeat: no-repeat; 
+    width: 89.9%; 
+    height: 100vh; 
+    position: absolute;
+    top: 0;
+    left: 150px; 
+    z-index: -1; 
+}
+
+/* warna cover background */
+.after{
+    content: " ";
+    display: block;
+    position: absolute;
+    background-size: 150px 150px; 
+    background-color: rgba(26, 26, 26, 0.6);
+    width: 89.9%; /* Lebar gambar 100% untuk mengisi konten */
+    height: 100vh;
+    top: 0;
+    left: 150px; /* Lebar sidebar */
+    z-index: -1; 
+}
+
+.headline h2{
+    color: white;
+    justify-content: center;
+    position: absolute;
+    top: 30%;
+    left: 27%;
+    text-align: center;
+    font-size: 30pt;
+}
+
+
+/* paragraf */
+.headline p{
+    color: white;
+    justify-content: center;
+    position: absolute;
+    top: 40%;
+    left: 27%;
+    text-align: justify;
+    font-size: 16pt;
+    margin-bottom: 20px;
+}
+
+/* tulisan di start */
+.ket p {
+    color: white;
+    justify-content: center;
+    position: absolute;
+    top: 65%; /* Menggeser elemen ke bawah (nilai dapat disesuaikan) */
+    left: 27%;
+    text-align: justify;
+    font-size: 16pt;
+    z-index: -1; 
+}
+
+
+/* CSS */
+.button {
+    border: none; 
+    padding: 10px 20px;
+    cursor: pointer; 
+    justify-content: center;
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12%;
+}
+
+.hover-button {
+    background-color: #051b39; /* Warna latar belakang tombol */
+    color: #fff; /* Warna teks tombol */
+    border: none; /* Tanpa border */
+    padding: 20px 45px; /* Ukuran padding tombol */
+    cursor: pointer; /* Pointer saat mengarahkan ke tombol */
+    border-radius: 20px; /* Membuat sudut tombol melengkung */
+    transition: background-color 0.3s; /* Animasi warna latar belakang saat hover */
+}
+
+.hover-button:hover {
+    background-color: #0056b3; /* Warna latar belakang saat tombol di-hover */
+}
+
+
+/* icon sosmed */
+.icon{
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    padding: 0 10px;
+    padding-top: 7%;
+    margin-left: 3%;
+    margin-bottom: 10%;
+}
+
+.icon{
+    margin-top: 5%;
+    padding: 12px 10px;
+    border-radius: 12px;
+    width: 20px;
+
+}
+.icon:hover {
+    background: #279EFF;
+    transition: all ease-in .2s;
+}
+.sidebar .list-item .deskripsi {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+    text-align: center;
+    color: white;
+}
+
+.sidebar .main .list-item .ikon {
+    margin-right: 12px;
+
+}
+
+.sidebar .main .list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 10px;
+    border-radius: 8px;
+    width: 212px;
+    box-sizing: border-box;
+}
+
+.sidebar .main .list-item:hover {
+    background: #279EFF;
+    transition: all ease-in .2s;
+}
+
+.footer p{
+    justify-content: flex-start;
+    align-items: flex-end;
+    color: white;
+    font-size: 9pt;
+    margin-top: 80%;
+ 
+}
+
+.biru{
+ color: #279EFF;
+ font-size: 9pt;}
